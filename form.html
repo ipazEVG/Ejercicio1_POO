@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form action="recoger.php" method="get">
+    <label for="num1">Introduce un número:</label> 
+    <input type="text" id="num1" name="num1" required><br/><br/>
+
+    <label for="num2">Introduce otro número:</label> 
+    <input type="text" id="num2" name="num2" required><br/><br/>
+
+    <label for="operadores">Selecciona la operación:</label>
+    <select id="operadores" name="operadores">
+        <option id="suma" value="suma">Suma</option >
+        <option id="resta" value="resta">Resta</option>
+        <option id="multiplicacion" value="multiplicacion">Multiplicación</option>
+        <option id="division" value="division">División</option>
+    </select><br/><br/>
+    <input type="submit" name="Enviar"><br/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* Estilo retro de los años 50 con colores pastel */
+body {
+    font-family: 'Georgia', 'Merriweather', 'Libre Baskerville', serif;
+    font-size: 16px; /* Tamaño de fuente estándar */
+
+    background-color: #a2c2e8; /* Fondo color pastel */
+    color: #333; /* Texto oscuro para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    padding: 30px;
+    width: 350px; /* Ancho del formulario */
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #5b5b5b; /* Color suave para las etiquetas */
+}
+
+input[type="text"], select {
+    background: #f9f9f9; /* Fondo suave para los campos */
+    border: 1px solid #e0e0e0; /* Borde suave */
+    color: #333; /* Texto oscuro */
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem;
+    transition: border-color 0.3s; /* Transición suave al enfocar */
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #ff7f50; /* Color de borde al enfocar */
+    outline: none; /* Sin contorno al enfocar */
+}
+
+input[type="submit"] {
+    background-color: #ff7f50; /* Botón en color coral */
+    color: #fff; /* Texto blanco en el botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6347; /* Color más oscuro al pasar el cursor */
+}
+
+select {
+    -webkit-appearance: none; /* Eliminar estilo por defecto */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f9f9f9; /* Fondo para el select */
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Borde suave */
+    border-radius: 5px;
+    color: #333; /* Texto oscuro */
+    background-position: right 10px center;
+}
